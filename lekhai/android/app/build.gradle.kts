@@ -38,6 +38,13 @@ android {
         }
     }
 }
+dependencies {
+    // English / Latin OCR
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition:18.0.3")
+
+    // Hindi / Devanagari OCR
+    implementation("com.google.mlkit:text-recognition-devanagari:16.0.0")
+}
 
 flutter {
     source = "../.."
